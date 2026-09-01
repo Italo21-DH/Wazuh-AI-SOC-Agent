@@ -2,6 +2,12 @@
 
 Un agente de respuesta a incidentes que extrae datos de un SIEM Wazuh, utiliza Inteligencia Artificial (Gemini 3.5) para análisis L3 determinista, y genera reglas de mitigación a nivel de red (iptables) en tiempo real.
 
+## 📝 Arquitectura y Write-up
+
+El paso a paso detallado de la arquitectura, configuración de la red y las simulaciones ofensivas (Red Team) está documentado en el siguiente Write-up:
+
+👉 [Leer el Write-up completo en Notion](https://pineapple-picture-189.notion.site/Agente-SOC-Aut-nomo-v1-0-3ce8b3c2275f809ab296c51c5a3d0504)
+
 ## ⚙️ Arquitectura del Proyecto
 
 * **SIEM:** Wazuh Indexer (Extracción de logs JSON mediante API HTTP).
