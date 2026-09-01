@@ -137,7 +137,7 @@ def obtener_alertas():
     except Exception as e:
         print(f"[-] Error crítico de red: {e}")
 
-# EL GATILLO PRINCIPAL (UNA SOLA VEZ AL FINAL)
+
 if __name__ == "__main__":
     print("=== INICIANDO AGENTE SOC ===")
     token_jwt = obtener_token()
